@@ -3,5 +3,5 @@ module.exports = {
     title: `rest-restore-app`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
-}
+  plugins: ['gatsby-plugin-postcss'],
+};
