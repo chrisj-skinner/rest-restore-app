@@ -22,11 +22,11 @@ const Header = () => {
     <>
       <div
         class={
-          'bg-black h-full w-full opacity-0 absolute transition-[opacity] duration-300 ease-in-out top-[98px]' +
+          'bg-black h-full w-full opacity-0 absolute transition-[opacity] duration-300 ease-in-out top-[96px]' +
           (menuActive ? ' opacity-50' : '')
         }
       ></div>
-      <header class='flex justify-between flex-wrap p-6 bg-white border-b-2'>
+      <header class='flex justify-between flex-wrap px-6 items-center h-[96px] bg-white border-b-2 border-gray-200'>
         <div class='flex'>
           <a href='/'>
             <img src={logo} alt='logo' class='inline-block' />
@@ -36,15 +36,14 @@ const Header = () => {
         <button class={'menu-btn' + (menuActive ? ' menu-btn--active' : '')} onClick={toggleMenu}></button>
         <nav
           class={
-            'menu border-l-2 h-full absolute w-[280px] right-[-280px] bg-white overflow-x-hidden transition-[right] duration-300 ease-in-out top-[98px]' +
+            'menu border-l-2 border-gray-200 h-full absolute w-[280px] right-[-280px] bg-white overflow-x-hidden transition-[right] duration-300 ease-in-out top-[96px]' +
             (menuActive ? ' right-0' : '')
           }
         >
           <ul>
             <li
               class={
-                'relative border-b-[1px] border-b-[lightgray] has-sub-menu' +
-                (subMenuActive ? ' has-sub-menu--active' : '')
+                'relative border-b-[1px] border-gray-200 has-sub-menu' + (subMenuActive ? ' has-sub-menu--active' : '')
               }
             >
               <Link
