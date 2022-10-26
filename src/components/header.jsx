@@ -43,7 +43,7 @@ const Header = () => {
           <ul>
             <li
               class={
-                'relative border-b-[1px] border-gray-200 has-sub-menu' + (subMenuActive ? ' has-sub-menu--active' : '')
+                'relative border-b-[1px] border-gray has-sub-menu' + (subMenuActive ? ' has-sub-menu--active' : '')
               }
             >
               <Link

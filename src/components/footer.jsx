@@ -8,7 +8,7 @@ const currentYear = () => new Date().getFullYear();
 const Footer = () => {
   return (
     <div>
-      <footer className='flex justify-between items-center h-[64px] bg-[#3d3d3d] text-neutral-400 px-6 text-sm'>
+      <footer className='flex justify-between items-center h-[64px] bg-neutral-700 text-neutral-400 px-6 text-sm'>
         <div className=''>COPYRIGHT © {currentYear()} REST AND RESTORE</div>
         <div className='flex'>
           <Link to='' className='p-3'>
