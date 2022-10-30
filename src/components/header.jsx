@@ -20,85 +20,86 @@ const Header = () => {
 
   return (
     <>
-      <div
+      {/* <div
         class={
           'bg-black h-full w-full opacity-0 absolute transition-[opacity] duration-300 ease-in-out top-[96px]' +
           (menuActive ? ' opacity-50' : '')
         }
-      ></div>
-      <header class='flex justify-between flex-wrap px-6 items-center h-[96px] bg-white border-b-2 border-gray-200'>
-        <div class='flex'>
+      ></div> */}
+      <header className='flex justify-between flex-wrap px-11 items-center h-[96px] bg-white border-b-2 border-[lightgray] relative'>
+        <div className='flex'>
           <a href='/'>
-            <img src={logo} alt='logo' class='inline-block' />
-            <img src={logoLg} alt='large logo' class='hidden sm:inline-block ml-3' />
+            <img src={logo} alt='logo' className='inline-block' />
+            <img src={logoLg} alt='large logo' className='hidden sm:inline-block ml-3' />
           </a>
         </div>
-        <button class={'menu-btn' + (menuActive ? ' menu-btn--active' : '')} onClick={toggleMenu}></button>
+        <button className={'menu-btn' + (menuActive ? ' menu-btn--active' : '')} onClick={toggleMenu}></button>
         <nav
-          class={
-            'menu border-l-2 border-gray-200 h-full absolute w-[280px] right-[-280px] bg-white overflow-x-hidden transition-[right] duration-300 ease-in-out top-[96px]' +
+          className={
+            'menu border-l-2 border-[lightgray] absolute w-[280px] right-[-280px] bg-white overflow-x-hidden transition-[right] duration-300 ease-in-out top-[96px]' +
             (menuActive ? ' right-0' : '')
           }
         >
           <ul>
             <li
-              class={
-                'relative border-b-[1px] border-gray has-sub-menu' + (subMenuActive ? ' has-sub-menu--active' : '')
+              className={
+                'relative border-b-[1px] border-[lightgray] has-sub-menu' +
+                (subMenuActive ? ' has-sub-menu--active' : '')
               }
             >
               <Link
                 to='#'
-                class={
+                className={
                   'py-6 text-[#666666] flex h-[70px] items-center relative menu__link' +
                   (subMenuActive ? ' menu__link--active' : '')
                 }
                 onClick={toggleSubNav}
               >
-                <span class='menu-title'>Treatments</span>
+                <span className='menu-title'>Treatments</span>
               </Link>
-              <div class={'sub-menu' + (subMenuActive ? ' sub-menu--active' : '')}>
+              <div className={'sub-menu' + (subMenuActive ? ' sub-menu--active' : '')}>
                 <ul>
                   <li>
                     <Link to='' className='py-6 text-[#666666] flex h-[70px] items-center relative sub-menu__link'>
-                      <span class='sub-menu-title'>Facial Treatments</span>
+                      <span className='sub-menu-title'>Facial Treatments</span>
                     </Link>
                   </li>
                   <li>
                     <Link to='' className='py-6 text-[#666666] flex h-[70px] items-center relative sub-menu__link'>
-                      <span class='sub-menu-title'>Massages</span>
+                      <span className='sub-menu-title'>Massages</span>
                     </Link>
                   </li>
                   <li>
                     <Link to='' className='py-6 text-[#666666] flex h-[70px] items-center relative sub-menu__link'>
-                      <span class='sub-menu-title'>Body Treatments</span>
+                      <span className='sub-menu-title'>Body Treatments</span>
                     </Link>
                   </li>
                   <li>
                     <Link to='' className='py-6 text-[#666666] flex h-[70px] items-center relative sub-menu__link'>
-                      <span class='sub-menu-title'>Sugargin</span>
+                      <span className='sub-menu-title'>Sugargin</span>
                     </Link>
                   </li>
                 </ul>
               </div>
             </li>
-            <li class='relative border-b-[1px] border-b-[lightgray]'>
+            <li className='relative border-b-[1px] border-[lightgray]'>
               <Link to='' className='py-6 text-[#666666] flex h-[70px] items-center relative menu__link'>
-                <span class='menu-title'>Products</span>
+                <span className='menu-title'>Products</span>
               </Link>
             </li>
-            <li class='relative border-b-[1px] border-b-[lightgray]'>
+            <li className='relative border-b-[1px] border-[lightgray]'>
               <Link to='' className='py-6 text-[#666666] flex h-[70px] items-center relative menu__link'>
-                <span class='menu-title'>About</span>
+                <span className='menu-title'>About</span>
               </Link>
             </li>
-            <li class='relative border-b-[1px] border-b-[lightgray]'>
+            <li className='relative border-b-[1px] border-[lightgray]'>
               <Link to='' className='py-6 text-[#666666] flex h-[70px] items-center relative menu__link'>
-                <span class='menu-title'>Contact</span>
+                <span className='menu-title'>Contact</span>
               </Link>
             </li>
-            <li class='relative border-b-[1px] border-b-[lightgray]'>
+            <li className='relative border-b-[1px] border-[lightgray]'>
               <Link to='' className='py-6 text-[#666666] flex h-[70px] items-center relative menu__link'>
-                <span class='menu-title'>Privacy</span>
+                <span className='menu-title'>Privacy</span>
               </Link>
             </li>
           </ul>

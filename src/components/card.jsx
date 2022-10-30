@@ -1,22 +1,20 @@
 import React from 'react';
 
-const Card = (args) => {
+const Card = (data) => {
+  console.log(data);
   return (
     <>
       <div className='flex flex-col text-gray first:ml-0 ml-[1px] w-full'>
-        <div className='flex items-center justify-center bg-skyblue p-3 min-h-[90px]'>
-          <p className='text-white text-2xl font-thin tracking-widest text-center'>
-            Rest & Restore Back, Face and Scalp
-          </p>
+        <div className='flex items-center justify-center bg-skyblue min-h-[90px]'>
+          <p className='text-white text-xl font-thin tracking-widest text-center'>{data.title}</p>
         </div>
         <div className='flex justify-center flex-grow-[1]'>
-          <p className='text-center p-3'>
-            A tailored introduction to the Tropic range focusing on deeply cleansing and using appropriate serums for
-            your concerns
-          </p>
+          <p className='text-center p-3 text-sm antialiased'>{data.subTitle}</p>
         </div>
-        <div className='flex items-center justify-center h-[46px] bg-lightgray'>
-          <p>25 minutes – £25</p>
+        <div className='flex items-center justify-center h-[46px] bg-lightgray text-sm antialiased'>
+          <p>
+            {data.duration} minutes – £{data.price}
+          </p>
         </div>
       </div>
     </>
