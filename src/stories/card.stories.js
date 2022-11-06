@@ -2,7 +2,7 @@ import React from 'react';
 
 import Card from '../components/card';
 
-const MockData = [
+const MockTreatments = [
   {
     title: 'Mini Restorative Facial',
     subTitle:
@@ -34,13 +34,13 @@ export default {
 };
 const Template = (args) => (
   <div className='md:flex'>
-    {args.data.map((_, i) => (
-      <Card {...args.data[i]} />
+    {args.treatments.map((treatment, i) => (
+      <Card key={i} data={treatment} />
     ))}
   </div>
 );
 
 export const Default = Template.bind({});
 Default.args = {
-  data: MockData,
+  treatments: MockTreatments,
 };
