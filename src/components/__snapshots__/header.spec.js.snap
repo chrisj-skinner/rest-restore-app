@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header
+  className="flex justify-between flex-wrap px-11 items-center h-[96px] bg-white border-b-2 border-[lightgray] relative"
+>
+  <div
+    className="flex"
+  >
+    <a
+      href="/"
+    >
+      <img
+        alt="logo"
+        className="inline-block"
+        src="test-file-stub"
+      />
+      <img
+        alt="large logo"
+        className="hidden sm:inline-block ml-3"
+        src="test-file-stub"
+      />
+    </a>
+  </div>
+  <button
+    className="menu-btn"
+    onClick={[Function]}
+  />
+  <nav
+    className="menu border-l-2 border-[lightgray] absolute w-[280px] right-[-280px] bg-white overflow-x-hidden transition-[right] duration-300 ease-in-out top-[96px]"
+  >
+    <ul>
+      <li
+        className="relative border-b-[1px] border-[lightgray] has-sub-menu"
+      >
+        <a
+          className="py-6 text-[#666666] flex h-[70px] items-center relative menu__link"
+          href="#"
+          onClick={[Function]}
+        >
+          <span
+            className="menu-title"
+          >
+            Treatments
+          </span>
+        </a>
+        <div
+          className="sub-menu"
+        >
+          <ul>
+            <li>
+              <a
+                className="py-6 text-[#666666] flex h-[70px] items-center relative sub-menu__link"
+                href=""
+              >
+                <span
+                  className="sub-menu-title"
+                >
+                  Facial Treatments
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                className="py-6 text-[#666666] flex h-[70px] items-center relative sub-menu__link"
+                href=""
+              >
+                <span
+                  className="sub-menu-title"
+                >
+                  Massages
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                className="py-6 text-[#666666] flex h-[70px] items-center relative sub-menu__link"
+                href=""
+              >
+                <span
+                  className="sub-menu-title"
+                >
+                  Body Treatments
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                className="py-6 text-[#666666] flex h-[70px] items-center relative sub-menu__link"
+                href=""
+              >
+                <span
+                  className="sub-menu-title"
+                >
+                  Sugargin
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li
+        className="relative border-b-[1px] border-[lightgray]"
+      >
+        <a
+          className="py-6 text-[#666666] flex h-[70px] items-center relative menu__link"
+          href=""
+        >
+          <span
+            className="menu-title"
+          >
+            Products
+          </span>
+        </a>
+      </li>
+      <li
+        className="relative border-b-[1px] border-[lightgray]"
+      >
+        <a
+          className="py-6 text-[#666666] flex h-[70px] items-center relative menu__link"
+          href=""
+        >
+          <span
+            className="menu-title"
+          >
+            About
+          </span>
+        </a>
+      </li>
+      <li
+        className="relative border-b-[1px] border-[lightgray]"
+      >
+        <a
+          className="py-6 text-[#666666] flex h-[70px] items-center relative menu__link"
+          href=""
+        >
+          <span
+            className="menu-title"
+          >
+            Contact
+          </span>
+        </a>
+      </li>
+      <li
+        className="relative border-b-[1px] border-[lightgray]"
+      >
+        <a
+          className="py-6 text-[#666666] flex h-[70px] items-center relative menu__link"
+          href=""
+        >
+          <span
+            className="menu-title"
+          >
+            Privacy
+          </span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
