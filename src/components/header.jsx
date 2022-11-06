@@ -50,8 +50,7 @@ const Header = () => {
               <Link
                 to='#'
                 className={
-                  'py-6 text-[#666666] flex h-[70px] items-center relative menu__link' +
-                  (subMenuActive ? ' menu__link--active' : '')
+                  'py-6 flex h-[70px] items-center relative menu__link' + (subMenuActive ? ' menu__link--active' : '')
                 }
                 onClick={toggleSubNav}
               >
@@ -60,22 +59,22 @@ const Header = () => {
               <div className={'sub-menu' + (subMenuActive ? ' sub-menu--active' : '')}>
                 <ul>
                   <li>
-                    <Link to='' className='py-6 text-[#666666] flex h-[70px] items-center relative sub-menu__link'>
+                    <Link to='' className='py-6 flex h-[70px] items-center relative sub-menu__link'>
                       <span className='sub-menu-title'>Facial Treatments</span>
                     </Link>
                   </li>
                   <li>
-                    <Link to='' className='py-6 text-[#666666] flex h-[70px] items-center relative sub-menu__link'>
+                    <Link to='' className='py-6 flex h-[70px] items-center relative sub-menu__link'>
                       <span className='sub-menu-title'>Massages</span>
                     </Link>
                   </li>
                   <li>
-                    <Link to='' className='py-6 text-[#666666] flex h-[70px] items-center relative sub-menu__link'>
+                    <Link to='' className='py-6 flex h-[70px] items-center relative sub-menu__link'>
                       <span className='sub-menu-title'>Body Treatments</span>
                     </Link>
                   </li>
                   <li>
-                    <Link to='' className='py-6 text-[#666666] flex h-[70px] items-center relative sub-menu__link'>
+                    <Link to='' className='py-6 flex h-[70px] items-center relative sub-menu__link'>
                       <span className='sub-menu-title'>Sugargin</span>
                     </Link>
                   </li>
@@ -83,22 +82,22 @@ const Header = () => {
               </div>
             </li>
             <li className='relative border-b-[1px] border-[lightgray]'>
-              <Link to='' className='py-6 text-[#666666] flex h-[70px] items-center relative menu__link'>
+              <Link to='' className='py-6 flex h-[70px] items-center relative menu__link'>
                 <span className='menu-title'>Products</span>
               </Link>
             </li>
             <li className='relative border-b-[1px] border-[lightgray]'>
-              <Link to='' className='py-6 text-[#666666] flex h-[70px] items-center relative menu__link'>
+              <Link to='' className='py-6 flex h-[70px] items-center relative menu__link'>
                 <span className='menu-title'>About</span>
               </Link>
             </li>
             <li className='relative border-b-[1px] border-[lightgray]'>
-              <Link to='' className='py-6 text-[#666666] flex h-[70px] items-center relative menu__link'>
+              <Link to='' className='py-6 flex h-[70px] items-center relative menu__link'>
                 <span className='menu-title'>Contact</span>
               </Link>
             </li>
             <li className='relative border-b-[1px] border-[lightgray]'>
-              <Link to='' className='py-6 text-[#666666] flex h-[70px] items-center relative menu__link'>
+              <Link to='' className='py-6 flex h-[70px] items-center relative menu__link'>
                 <span className='menu-title'>Privacy</span>
               </Link>
             </li>

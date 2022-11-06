@@ -14,7 +14,7 @@ const FacialPage = () => {
             <img src={image01} alt='assortment of tropic facial products' className='md:pr-20' />
           </div>
           <div className='md:w-1/2 text-sm text-[#666666] antialiased'>
-            <h1 className='text-lg text-skyblue mb-10 font-light tracking-wide'>Facial Treatments</h1>
+            <h1 className='text-lg text-skyblue my-10 md:mt-0 font-light tracking-wide'>Facial Treatments</h1>
             <p className='mb-5'>
               All Facial treatments are performed using{' '}
               <a
@@ -65,17 +65,17 @@ const FacialPage = () => {
             <p>Facial also includes décolleté, neck and shoulders.</p>
           </div>
         </div>
-        <div className='md:flex my-11'>
+        <div className='md:flex my-11 border-[#eeeeee] border border-t-0'>
           {FacialTreatments.map((treatment, i) => (
             <Card key={i} data={treatment} />
           ))}
         </div>
         <div className='md:flex my-11'>
           <div className='md:w-1/2'>
-            <img src={image02} alt='closed tubs of tropic facial products' />
+            <img src={image02} alt='herbs and ground massages products' />
           </div>
           <div className='md:w-1/2'>
-            <img src={image03} alt='open tubs of tropic facial products' />
+            <img src={image03} alt='massage body oil spray' />
           </div>
         </div>
       </main>
@@ -90,20 +90,17 @@ const FacialTreatments = [
     title: 'Mini Restorative Facial',
     subTitle:
       'A tailored introduction to the Tropic range focusing on deeply cleansing and using appropriate serums for your concerns.',
-    duration: '25',
-    price: '25',
+    variants: [{ duration: '25', price: '25' }],
   },
   {
     title: 'Restorative Facial',
     subTitle: 'Includes a double cleanse and exfoliation.',
-    duration: '55',
-    price: '42',
+    variants: [{ duration: '55', price: '42' }],
   },
   {
     title: 'Rest & Restore Back, Face and Scalp',
     subTitle:
       'A tailored introduction to the Tropic range focusing on deeply cleansing and using appropriate serums for your concerns',
-    duration: '1hr 25',
-    price: '25',
+    variants: [{ duration: '1hr 25', price: '25' }],
   },
 ];
