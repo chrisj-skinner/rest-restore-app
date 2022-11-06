@@ -1,5 +1,4 @@
 import React from 'react';
-import { Meta, Story } from '@storybook/react';
 import Schedule from '../components/schedule';
 
 export default {
@@ -8,8 +7,8 @@ export default {
   parameters: {
     layout: 'fullscreen',
   },
-} as Meta<typeof Schedule>;
+};
 
-const Template: Story<typeof Schedule> = () => <Schedule />;
+const Template = () => <Schedule />;
 
 export const Default = Template.bind({});
