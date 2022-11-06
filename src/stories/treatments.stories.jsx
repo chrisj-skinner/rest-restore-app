@@ -1,5 +1,6 @@
 import React from 'react';
 import FacialsPage from '../pages/facials';
+import MassagePage from '../pages/massage';
 
 export default {
   title: 'Pages/Treatments',
@@ -9,3 +10,4 @@ export default {
 };
 
 export const Facials = () => <FacialsPage />;
+export const Massage = () => <MassagePage />;
