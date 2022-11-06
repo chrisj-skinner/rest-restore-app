@@ -10,12 +10,12 @@ const Footer = () => {
     <footer className='flex justify-between items-center h-[64px] bg-neutral-700 text-[lightgray] px-6 text-sm'>
       <div className=''>COPYRIGHT © {currentYear()} REST AND RESTORE</div>
       <div className='flex'>
-        <Link to='https://www.facebook.com/restandrestoreuk' target='_blank' className='p-3'>
+        <a href='https://www.facebook.com/restandrestoreuk' target='_blank' className='p-3'>
           <img src={facebookLogo} alt='twitter logo' />
-        </Link>
-        <Link to='https://twitter.com/restandrestore' target='_blank' className='p-3'>
+        </a>
+        <a href='https://twitter.com/restandrestore' target='_blank' className='p-3'>
           <img src={twitterLogo} alt='facebook logo' />
-        </Link>
+        </a>
       </div>
     </footer>
   );
