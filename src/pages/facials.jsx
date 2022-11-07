@@ -11,9 +11,9 @@ const FacialPage = () => {
       <main className='px-11'>
         <div className='md:flex my-11'>
           <div className='md:w-1/2'>
-            <img src={image01} alt='assortment of tropic facial products' className='md:pr-20' />
+            <img src={image01} alt='assortment of tropic facial products' className='p-2 md:pr-10' />
           </div>
-          <div className='md:w-1/2 text-sm text-[#666666] antialiased'>
+          <div className='md:w-1/2 text-sm'>
             <h1 className='text-lg text-skyblue my-10 md:mt-0 font-light tracking-wide'>Facial Treatments</h1>
             <p className='mb-5'>
               All Facial treatments are performed using{' '}
@@ -72,10 +72,10 @@ const FacialPage = () => {
         </div>
         <div className='md:flex my-11'>
           <div className='md:w-1/2'>
-            <img src={image02} alt='herbs and ground massages products' />
+            <img src={image02} alt='herbs and ground massages products' className='p-2 md:pr-10' />
           </div>
           <div className='md:w-1/2'>
-            <img src={image03} alt='massage body oil spray' />
+            <img src={image03} alt='massage body oil spray' className='p-2 md:pr-10' />
           </div>
         </div>
       </main>

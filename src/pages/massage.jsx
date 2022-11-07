@@ -12,9 +12,9 @@ const MassagePage = () => {
       <main className='px-11'>
         <div className='md:flex my-11'>
           <div className='md:w-1/2'>
-            <img src={image01} alt='therapeutic back massage treatment' className='md:pr-10' />
+            <img src={image01} alt='therapeutic back massage treatment' className='p-2 md:pr-10' />
           </div>
-          <div className='md:w-1/2 text-sm text-[#666666] antialiased'>
+          <div className='md:w-1/2 text-sm'>
             <h1 className='text-lg text-skyblue my-10 md:mt-0 font-light tracking-wide'>Massages</h1>
             <p className='mb-5'>All massages are performed using Eve Taylors 100% natural pre blended massage oils.</p>
             <p className='mb-5'>
@@ -41,10 +41,10 @@ const MassagePage = () => {
         </div>
         <div className='md:flex my-11'>
           <div className='md:w-1/2'>
-            <img src={image02} alt='closed tubs of tropic facial products' />
+            <img src={image02} alt='closed tubs of tropic facial products' className='p-2 md:pr-10' />
           </div>
           <div className='md:w-1/2'>
-            <img src={image03} alt='open tubs of tropic facial products' />
+            <img src={image03} alt='open tubs of tropic facial products' className='p-2 md:pr-10' />
           </div>
         </div>
       </main>
