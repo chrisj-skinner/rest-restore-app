@@ -70,11 +70,11 @@ const FacialPage = () => {
             <Card key={i} data={treatment} />
           ))}
         </div>
-        <div className='md:flex my-11'>
-          <div className='md:w-1/2'>
+        <div className='md:flex justify-between my-11'>
+          <div>
             <img src={image02} alt='herbs and ground massages products' className='p-2 md:pr-10' />
           </div>
-          <div className='md:w-1/2'>
+          <div>
             <img src={image03} alt='massage body oil spray' className='p-2 md:pr-10' />
           </div>
         </div>

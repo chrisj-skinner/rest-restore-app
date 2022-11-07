@@ -39,11 +39,11 @@ const MassagePage = () => {
             <Card key={i} data={treatment} />
           ))}
         </div>
-        <div className='md:flex my-11'>
-          <div className='md:w-1/2'>
+        <div className='md:flex justify-between my-11'>
+          <div>
             <img src={image02} alt='closed tubs of tropic facial products' className='p-2 md:pr-10' />
           </div>
-          <div className='md:w-1/2'>
+          <div>
             <img src={image03} alt='open tubs of tropic facial products' className='p-2 md:pr-10' />
           </div>
         </div>
