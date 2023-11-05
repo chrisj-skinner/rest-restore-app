@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `rest-restore-app`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.restandrestore.co.uk`,
   },
   plugins: [
     'gatsby-plugin-postcss',
