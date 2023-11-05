@@ -1,0 +1,48 @@
+{
+  "name": "rest-restore-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "rest-restore-app",
+  "author": "Chris Skinner",
+  "keywords": [
+    "gatsby"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "gatsby": "^4.23.0",
+    "gatsby-plugin-cookiehub": "^1.0.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-interactions": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-webpack5": "^6.5.12",
+    "@storybook/manager-webpack5": "^6.5.12",
+    "@storybook/react": "^6.5.12",
+    "@storybook/testing-library": "^0.0.13",
+    "autoprefixer": "^10.4.11",
+    "babel-loader": "^8.2.5",
+    "gatsby-plugin-postcss": "^5.23.0",
+    "postcss": "^8.4.16",
+    "storybook-addon-gatsby": "0.0.5",
+    "tailwindcss": "^3.1.8"
+  }
+}

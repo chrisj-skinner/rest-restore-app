@@ -1,0 +1,141 @@
+{
+  "header": {
+    "navigation": [
+      {
+        "label": "Home",
+        "ref": "/"
+      },
+      {
+        "label": "Treatments",
+        "ref": "#",
+        "children": [
+          {
+            "label": "Facial Treatments",
+            "ref": "/facials"
+          },
+          {
+            "label": "Massage",
+            "ref": "/massage"
+          },
+          {
+            "label": "Sugaring",
+            "ref": "/sugaring"
+          }
+        ]
+      },
+      {
+        "label": "About",
+        "ref": "/about"
+      },
+      {
+        "label": "Contact",
+        "ref": "/contact"
+      }
+    ]
+  },
+  "footer": {
+    "navigation": [
+      {
+        "label": "Disclaimer",
+        "ref": "/disclaimer"
+      }
+    ]
+  },
+  "treatments": {
+    "facials": [
+      {
+        "title": "Mini Restorative Facial",
+        "subTitle": "A tailored introduction to the Tropic ange focusing on deeply cleansing and using appropriate serums for your concerns.",
+        "details": [{ "description": "25", "price": "31" }]
+      },
+      {
+        "title": "Restorative Facial",
+        "subTitle": "Includes a double cleanse and exfoliation, massage mask, scalp massage, intensive serums and moisturisers.",
+        "details": [{ "description": "55", "price": "52.50" }]
+      },
+      {
+        "title": "Back, Face and Scalp",
+        "subTitle": "The most pampering of all the treatments. Includes: back cleanse, exfoliation and massage, restorative facial and scalp massage.",
+        "details": [{ "description": "1hr 25", "price": "80" }]
+      }
+    ],
+
+    "massage": [
+      {
+        "title": "Relax Massage",
+        "subTitle": "A relaxing massage to melt away the daily stresses of life",
+        "details": [
+          { "description": "25", "price": "31" },
+          { "description": "40", "price": "42.50" },
+          { "description": "55", "price": "52.50" }
+        ]
+      },
+      {
+        "title": "Deep Tissue",
+        "subTitle": "Designed to work on the deeper layers of muscle to release harder to reach tension.",
+        "details": [
+          { "description": "25", "price": "31" },
+          { "description": "40", "price": "42.50" },
+          { "description": "55", "price": "52.50" }
+        ]
+      }
+    ],
+    "sugaring": {
+      "lowerBody1": [
+        {
+          "title": "Brazilian",
+          "subTitle": "",
+          "details": [
+            { "description": "Maintenance (every 3-6 weeks)", "price": "36" },
+            { "description": "Over 6 weeks", "price": "42" }
+          ]
+        },
+        {
+          "title": "Hollywood",
+          "subTitle": "",
+          "details": [
+            { "description": "Maintenance (every 3-6 weeks)", "price": "36" },
+            { "description": "Over 6 weeks", "price": "42" }
+          ]
+        }
+      ],
+      "lowerBody2": [
+        {
+          "title": "Legs",
+          "subTitle": "",
+          "details": [
+            { "description": "½ Leg", "price": "22.50" },
+            { "description": "Full Leg", "price": "40" }
+          ]
+        },
+        {
+          "title": "Bikini",
+          "subTitle": "",
+          "details": [
+            { "description": "Bikini Line", "price": "15" },
+            { "description": "High Bikini Line", "price": "25" }
+          ]
+        }
+      ],
+      "upperBody": [
+        {
+          "title": "Arms",
+          "subTitle:": "",
+          "details": [
+            { "description": "½ Arm", "price": "19" },
+            { "description": "Full Arm", "price": "27.50" },
+            { "description": "Under Arm", "price": "12.50" }
+          ]
+        },
+        {
+          "title": "Face",
+          "subTitle:": "",
+          "details": [
+            { "description": "Lip", "price": "8" },
+            { "description": "Chin", "price": "9" }
+          ]
+        }
+      ]
+    }
+  }
+}
