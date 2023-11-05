@@ -46,7 +46,7 @@ const LoyaltyPage = () => {
       <Pricing data={LowerBody2} alternative='true' />
       <PricingTitle
         title='
-        Lower Body Sugaring'
+        Upper Body Sugaring'
       />
       <Pricing data={UpperBody} alternative='true' />
       <ImageCollection data={Images} className='my-11' />
