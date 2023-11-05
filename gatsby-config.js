@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/',
   siteMetadata: {
     title: `rest-restore-app`,
     siteUrl: `https://www.restandrestore.co.uk`,
