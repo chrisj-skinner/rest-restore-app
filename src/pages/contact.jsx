@@ -9,6 +9,7 @@ const ContactPage = () => (
     <Layout>
       <div className='mb-11'>
         <iframe
+          title='Rest and Restore Beauty Treatments - Abbots Langley & Watford Map'
           src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1236.3781053513312!2d-0.4017147108700108!3d51.700906242964436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48764015aeb7531f%3A0x18ae52bedf617a63!2sHorseshoe%20Ln%2C%20Watford%20WD25%207JQ!5e0!3m2!1sen!2suk!4v1698853184036!5m2!1sen!2suk'
           width='100%'
           height='350'
