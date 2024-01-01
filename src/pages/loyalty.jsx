@@ -32,23 +32,23 @@ const LoyaltyPage = () => {
         title='
         Facial Treatments'
       />
-      <Pricing data={Facials} />
+      <Pricing data={Facials} isLoyalty={true} />
       <PricingTitle
         title='
         Massages'
       />
-      <Pricing data={Massage} />
+      <Pricing data={Massage} isLoyalty={true} />
       <PricingTitle
         title='
         Lower Body Sugaring'
       />
-      <Pricing data={LowerBody1} alternative='true' />
-      <Pricing data={LowerBody2} alternative='true' />
+      <Pricing data={LowerBody1} alternative='true' isLoyalty={true} />
+      <Pricing data={LowerBody2} alternative='true' isLoyalty={true} />
       <PricingTitle
         title='
         Upper Body Sugaring'
       />
-      <Pricing data={UpperBody} alternative='true' />
+      <Pricing data={UpperBody} alternative='true' isLoyalty={true} />
       <ImageCollection data={Images} className='my-11' />
     </Layout>
   );

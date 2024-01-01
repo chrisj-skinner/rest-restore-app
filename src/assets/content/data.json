@@ -46,17 +46,23 @@
       {
         "title": "Mini Restorative Facial",
         "subTitle": "A tailored introduction to the Tropic ange focusing on deeply cleansing and using appropriate serums for your concerns.",
-        "details": [{ "description": "25", "price": "31" }]
+        "details": [
+          { "description": "25", "price": "31", "loyaltyPrice": "27" }
+        ]
       },
       {
         "title": "Restorative Facial",
         "subTitle": "Includes a double cleanse and exfoliation, massage mask, scalp massage, intensive serums and moisturisers.",
-        "details": [{ "description": "55", "price": "52.50" }]
+        "details": [
+          { "description": "55", "price": "52.50", "loyaltyPrice": "45" }
+        ]
       },
       {
         "title": "Back, Face and Scalp",
         "subTitle": "The most pampering of all the treatments. Includes: back cleanse, exfoliation and massage, restorative facial and scalp massage.",
-        "details": [{ "description": "1hr 25", "price": "80" }]
+        "details": [
+          { "description": "1hr 25", "price": "80", "loyaltyPrice": "68.50" }
+        ]
       }
     ],
 
@@ -65,18 +71,18 @@
         "title": "Relax Massage",
         "subTitle": "A relaxing massage to melt away the daily stresses of life",
         "details": [
-          { "description": "25", "price": "31" },
-          { "description": "40", "price": "42.50" },
-          { "description": "55", "price": "52.50" }
+          { "description": "25", "price": "31", "loyaltyPrice": "27" },
+          { "description": "40", "price": "42.50", "loyaltyPrice": "36" },
+          { "description": "55", "price": "52.50", "loyaltyPrice": "45" }
         ]
       },
       {
         "title": "Deep Tissue",
         "subTitle": "Designed to work on the deeper layers of muscle to release harder to reach tension.",
         "details": [
-          { "description": "25", "price": "31" },
-          { "description": "40", "price": "42.50" },
-          { "description": "55", "price": "52.50" }
+          { "description": "25", "price": "31", "loyaltyPrice": "27" },
+          { "description": "40", "price": "42.50", "loyaltyPrice": "36" },
+          { "description": "55", "price": "52.50", "loyaltyPrice": "45" }
         ]
       }
     ],
@@ -86,16 +92,32 @@
           "title": "Brazilian",
           "subTitle": "",
           "details": [
-            { "description": "Maintenance (every 3-6 weeks)", "price": "36" },
-            { "description": "Over 6 weeks", "price": "42" }
+            {
+              "description": "Maintenance (every 3-6 weeks)",
+              "price": "36",
+              "loyaltyPrice": "30"
+            },
+            {
+              "description": "Over 6 weeks",
+              "price": "42",
+              "loyaltyPrice": "34"
+            }
           ]
         },
         {
           "title": "Hollywood",
           "subTitle": "",
           "details": [
-            { "description": "Maintenance (every 3-6 weeks)", "price": "36" },
-            { "description": "Over 6 weeks", "price": "42" }
+            {
+              "description": "Maintenance (every 3-6 weeks)",
+              "price": "36",
+              "loyaltyPrice": "30"
+            },
+            {
+              "description": "Over 6 weeks",
+              "price": "42",
+              "loyaltyPrice": "34"
+            }
           ]
         }
       ],
@@ -104,16 +126,32 @@
           "title": "Legs",
           "subTitle": "",
           "details": [
-            { "description": "½ Leg", "price": "22.50" },
-            { "description": "Full Leg", "price": "40" }
+            {
+              "description": "½ Leg",
+              "price": "22.50",
+              "loyaltyPrice": "19.25"
+            },
+            {
+              "description": "Full Leg",
+              "price": "40",
+              "loyaltyPrice": "34.25"
+            }
           ]
         },
         {
           "title": "Bikini",
           "subTitle": "",
           "details": [
-            { "description": "Bikini Line", "price": "15" },
-            { "description": "High Bikini Line", "price": "25" }
+            {
+              "description": "Bikini Line",
+              "price": "15",
+              "loyaltyPrice": "13"
+            },
+            {
+              "description": "High Bikini Line",
+              "price": "25",
+              "loyaltyPrice": "21.50"
+            }
           ]
         }
       ],
@@ -122,17 +160,25 @@
           "title": "Arms",
           "subTitle:": "",
           "details": [
-            { "description": "½ Arm", "price": "19" },
-            { "description": "Full Arm", "price": "27.50" },
-            { "description": "Under Arm", "price": "12.50" }
+            { "description": "½ Arm", "price": "19", "loyaltyPrice": "16" },
+            {
+              "description": "Full Arm",
+              "price": "27.50",
+              "loyaltyPrice": "23.50"
+            },
+            {
+              "description": "Under Arm",
+              "price": "12.50",
+              "loyaltyPrice": "11"
+            }
           ]
         },
         {
           "title": "Face",
           "subTitle:": "",
           "details": [
-            { "description": "Lip", "price": "8" },
-            { "description": "Chin", "price": "9" }
+            { "description": "Lip", "price": "8", "loyaltyPrice": "7" },
+            { "description": "Chin", "price": "9", "loyaltyPrice": "8" }
           ]
         }
       ]

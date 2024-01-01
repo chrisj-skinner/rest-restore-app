@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Pricing = ({ data, alternative }) => {
+const Pricing = ({ data, alternative, isLoyalty }) => {
   return (
     <div className='md:flex mt-11 border-[#eeeeee] border border-t-0'>
       {data.map((item, i) => (
@@ -40,7 +40,12 @@ const Pricing = ({ data, alternative }) => {
                       {detail.description} {!alternative && `minutes - `}
                     </span>
                   )}
-                  {detail.price != null && (
+                  {/* if isLoyalty is true - show loyalty prices */}
+                  {isLoyalty && detail.loyaltyPrice != null && (
+                    <span className='w-1/2'>£{detail.loyaltyPrice}</span>
+                  )}
+                  {/* if showLoyaltyPrices is false - show regular prices */}
+                  {!isLoyalty && detail.price != null && (
                     <span className='w-1/2'>£{detail.price}</span>
                   )}
                 </p>
@@ -56,7 +61,7 @@ const Pricing = ({ data, alternative }) => {
 const PricingTitle = ({ title }) => {
   return (
     <>
-      <h2 className='relative inline-block pr-3 mt-3 font-light tracking-wider uppercase bg-white text-md top-4'>
+      <h2 className='text-md top-4 relative inline-block pr-3 mt-3 font-light tracking-wider uppercase bg-white'>
         {title}
       </h2>
       <div className='border-t-[1px] border-whitegray'></div>
