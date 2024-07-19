@@ -18,7 +18,7 @@ const Images = [
 const NotFoundPage = () => {
   return (
     <Layout>
-      <h1 className='pr-3 my-20 font-light tracking-wider text-center uppercase bg-white md:my-80 text-md '>
+      <h1 className='md:my-80 text-md  pr-3 my-20 font-light tracking-wider text-center uppercase bg-white'>
         404 - opps something went wrong
       </h1>
       <ImageCollection data={Images} className='my-11' />
@@ -32,7 +32,7 @@ export const Head = () => {
   return (
     <>
       <title>
-        404 | Rest and Restore Beauty Treatments – Abbots Langley & Watford
+        404 | Rest and Restore Beauty Treatments – Abbots Langley & Watford -
       </title>
     </>
   );
